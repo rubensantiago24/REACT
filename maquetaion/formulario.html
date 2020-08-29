@@ -1,0 +1,105 @@
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Maquetacion sitio web</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="center">
+            <div id="logo">
+                <img src="assets/img/react.svg" class="app-logo" alt="LogoTipo">
+                <span id="brand">
+                    <strong>Curso</strong>React
+                </span>
+            </div>
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="formulario.html">Formulario</a>
+                </li>
+                <li>
+                    <a href="">Pagina 1</a>
+                </li>
+                <li>
+                    <a href="">Pagina 2</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="clarfix"></div>
+    </header>
+
+    <div class="center">
+        <section id="content">
+
+            <h1 class="subheader">Formulario</h1>
+            <from>
+                <div class="formulario">
+                    <div class="form-group">
+                        <label for="nombre">NOMBRE COMPLETO</label>
+                        <input type="text" name="nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nombre">Apellido</label>
+                        <input type="text" name="apellido">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nombre">Biografia</label>
+                        <textarea name="biografia"></textarea>
+                    </div>
+
+
+                    <div class="form-group radiobuttons">
+                        <input type="radio" name="genero" value="hombre">Hombre
+                        <input type="radio" name="genero" value="mujer">Mujer
+                        <input type="radio" name="genero" value="otro">Otro
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="caja-boton">
+                        <input type="submit" value="Enviar" class="btn btn-success">
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </from>
+        </section>
+
+        <aside id="sidebar">
+            <div id="nav-blog" class="sidebar-item">
+                <h3>Puedes hacer esto.</h3>
+                <a href="" class="btn btn-success">Crear Articulo</a>
+            </div>
+            <div id="buscar" class="sidebar-item">
+                <h3>Buscador</h3>
+                <p>Encuntra el articulo que buscas</p>
+                <from>
+                    <input type="text" name="buscar" />
+                    <input type="submit" name="enviar" value="Buscar" class="btn" />
+                </from>
+            </div>
+        </aside>
+        <div class="clarfix"></div>
+    </div>
+    <footer id="footer">
+        <div class="center">
+            <p>
+                &copy; Máster en Frameworks(Practica Rubén Santiago Orejuela Torres)
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
